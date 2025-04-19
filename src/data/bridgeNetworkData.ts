@@ -2073,4 +2073,13 @@ export default [
       "zksync era": "era",
     },
   },
+  {
+    id: 86,
+    displayName: "Pheasant Network",
+    bridgeDbName: "pheasantNetwork",
+    iconLink: "icons:pheasant-network",
+    url: "https://pheasant.network/",
+    largeTxThreshold: 10000,
+    chains: ["Arbitrum", "Optimism", "Base", "Morph", "Linea", "Taiko", "Scroll"],
+  },
 ] as BridgeNetwork[];

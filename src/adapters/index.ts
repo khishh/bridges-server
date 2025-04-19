@@ -81,6 +81,7 @@ import universalx from "./universalx";
 import eclipse from "./eclipse";
 import layerzero from "./layerzero";
 import train from "./train"
+import pheasantNetwork from "./pheasant-network";
 
 export default {
   polygon,
@@ -165,6 +166,7 @@ export default {
   eclipse,
   layerzero,
   train,
+  pheasantNetwork,
 } as {
   [bridge: string]: BridgeAdapter | AsyncBridgeAdapter;
 };
