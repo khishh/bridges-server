@@ -2112,6 +2112,7 @@ export default [
       "Scroll",
       "Sei",
       "Taiko",
+      "Unichain",
       "World Chain",
       "ZkSync Era"
     ],
